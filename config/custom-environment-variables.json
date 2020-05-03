@@ -1,0 +1,12 @@
+{
+  "connectionString": "connectionString",
+  "jwt_PK": "jwt_PK",
+  "Mail_UserName": "Mail_UserName",
+  "CLOUDINARY_URL": "CLOUDINARY_URL",
+  "Mail_Password": "Mail_Password",
+  "FrontEndUrl": "FrontEndUrl",
+  "REDISCLOUD_URL": "REDISCLOUD_URL",
+  "Twilio_ServiceSid": "Twilio_ServiceSid",
+  "Twilio_accountSid": "Twilio_accountSid",
+  "Twilio_authToken": "Twilio_authToken"
+}
