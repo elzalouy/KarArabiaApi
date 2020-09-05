@@ -11,12 +11,12 @@ const app = express();
 app.use(morgan("tiny"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+const FrontApp = config.get("FrontEndUrl");
 app.use(cors({ origin: FrontApp }));
 configErrors();
 logging();
 db();
 routes(app);
-const FrontApp = config.get("FrontEndUrl");
 app.use(cors({ origin: FrontApp }));
 const port = process.env.PORT || 3000;
 const server = app.listen(port, () => {
